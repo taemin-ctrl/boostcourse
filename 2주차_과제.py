@@ -1,4 +1,4 @@
-1
+# 1
 import random as rd
 a=input('가위,바위,보 중에 선택해주세요.: ')
 while a!='가위' and a!='바위' and a!='보':
@@ -21,7 +21,8 @@ elif a=='보' and b=='가위':
     print('졌다.')
 else:
     print('비겼다.')
-1.1 추가
+
+# 1.1 추가
 import random as rd
 a=int(input('가위=0,바위=1,보=2 중에 선택해주세요.: '))
 b=rd.randint(0,2)
@@ -43,7 +44,8 @@ elif a==1 and b==1:
     print('나: 바위 \n컴퓨터: 바위\n비졌다.')
 else:
     print('비겼다.')
-2.
+
+# 2.
 def money(mon,tax):
     k=12*mon*(100-tax)/100
     return round(k)
@@ -66,7 +68,8 @@ else:
     b=42
 print('세전 연봉:',a,'만원\n세후 연봉:',money(c,b),'만원')
 round(100.2)
-3.
+
+# 3.
 a,d=input('이름과 점수를 입력해주세요.: ').split()
 c=0
 b=int(d)
@@ -89,7 +92,8 @@ elif b>=60:
 else:
     c='F'
 print('학생이름: ',a,'\n점수: ',b,'점','\n학점: ',c)
-4.
+
+# 4.
 a,b=input('나이와 지불 유형을 적어주세요.: ').split()
 while b!='현금' and b!='카드':
     a,b=input('다시 나이와 지불 유형을 적어주세요.: ').split()
