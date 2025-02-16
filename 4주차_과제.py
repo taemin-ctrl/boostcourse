@@ -15,6 +15,7 @@ def make_comma(a):
     return(b)
 b=input('숫자를 입력해주세요.: ')
 print(make_comma(b))
+
 #2
 def count_word(a, b):
     count=0
@@ -27,6 +28,7 @@ def count_word(a, b):
     print(count)    
 a,b=(input('파일과 찾고 싶은 글자를 적어주세요.:')).split(',')
 count_word(a, b)
+
 #3-1
 def wrong_guest_book(guest_book):
     a,b,c,d,e=guest_book.split('\n')
@@ -50,6 +52,7 @@ def wrong_guest_book(guest_book):
     f.close()
 book='김갑,123456789\n이을,010-1234-5678\n박병,010-5678-111 \n최정,111-1111-1111\n정무,010-3333-3333'
 wrong_guest_book(book)
+
 #3-1-1
 def wrong_guest_book(guest_book):
     b,c,d,e,f=guest_book.split('\n')
@@ -63,6 +66,7 @@ def wrong_guest_book(guest_book):
     fil.close()
 book='김갑,123456789\n이을,010-1234-5678\n박병,010-5678-111 \n최정,111-1111-1111\n정무,010-3333-3333'
 wrong_guest_book(book)
+
 #3-2
 def wrong_guest_book(guest_book): 
     f = open('101','w')
@@ -77,6 +81,7 @@ def wrong_guest_book(guest_book):
             print('잘못 쓴 번호:',g[3:])   
 book='김갑,123456789\n이을,010-1234-5678\n박병,010-5678-111\n정무,010-3333-3333'
 wrong_guest_book(book)
+
 #4
 def check_id(a):
     if len(a)!=13:
