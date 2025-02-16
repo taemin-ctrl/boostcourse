@@ -27,6 +27,7 @@ while True:
     except:
         print('졌습니다.')
         break
+
 #2
 def grader(s, a):
     count=0
@@ -45,6 +46,7 @@ def grader(s, a):
 s = ["김갑,3242524215","이을,3242524223","박병,2242554131","최정,4245242315","정무,3242524315"]
 a = [3,2,4,2,5,2,4,3,1,2]
 grader(s,a)
+
 #3
 import random as rd
 import statistics as s
@@ -87,6 +89,7 @@ while True:
     a=int(input(f'{count}차시도\n숫자를 예측해보세요 :'))
 print('게임종료')
 print(count,'번 시도만에 예측 성공')
+
 #4
 def after_100(a,b,c):
     d=['월','화','수','목','금','토','일']
