@@ -6,6 +6,7 @@ def gugudan(number):
         i+=2
 number = int(input("몇 단? : "))
 gugudan(number)
+
 #1-2
 def gugudan(number):
     for i in range(1,51,3):
@@ -13,6 +14,7 @@ def gugudan(number):
             print(number,'*',i,'=',number*i)
 number = int(input("몇 단? : "))
 gugudan(number)
+
 #2
 import random as rd
 games = int(input("몇 판을 진행하시겠습니까? : "))
@@ -54,6 +56,7 @@ def rsp_advanced(games):
     print('나의 전적',games,'전',w,'승',l,'패',games-w-l,'무')
     print('컴퓨터의 전적',games,'전',l,'승',w,'패',games-w-l,'무')
 rsp_advanced(games)
+
 #3
 def find_even_number(n, m):
     print('첫 번째 수 입력 :',n)
@@ -69,6 +72,7 @@ def find_even_number(n, m):
 n = int(input("첫 번째 수 입력해주세요. : "))
 m = int(input("두 번째 수 입력해주세요. : "))
 find_even_number(n, m)
+
 #4
 def count_prime_number(n, m):
     count=0
