@@ -174,7 +174,7 @@ def good_customer(info):
 
             if d[g.index(j)]!='010-0000-0000':
 
-                print(f'아이디: {b[g.index(j)]} 나이: {c[g.index(j)]} 전화번호: d[g.index(j)] 성별: e[g.index(j)] 지역: f[g.index(j)] 구매횟수 g[g.index(j)]')
+                print(f'아이디: {b[g.index(j)]} 나이: {c[g.index(j)]} 전화번호: {d[g.index(j)]} 성별: {e[g.index(j)]} 지역: {f[g.index(j)]} 구매횟수 {g[g.index(j)]}')
 
             
 
